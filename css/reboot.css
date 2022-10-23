@@ -1,0 +1,58 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+h6, h5, h4, h3, h2, h1 {
+  margin: 0;
+}
+
+p {
+  margin-top: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+a:not([href]):not([class]), a:not([href]):not([class]):hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+
+
+textarea {
+  resize: none;
+}
+
